@@ -1,2 +1,4 @@
-package in.guesp.blockchain.exception;public class ImpossibleToMine {
+package in.guesp.blockchain.exception;
+
+public class ImpossibleToMine extends Exception {
 }

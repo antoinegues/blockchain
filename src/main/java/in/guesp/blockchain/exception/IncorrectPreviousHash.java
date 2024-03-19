@@ -1,2 +1,4 @@
-package in.guesp.blockchain.exception;public class IncorrectPreviousHash {
+package in.guesp.blockchain.exception;
+
+public class IncorrectPreviousHash extends Exception {
 }
