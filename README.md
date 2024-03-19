@@ -25,7 +25,7 @@ This project is a simple and naive implementation of a blockchain using Spring B
    ```
    
 4. Run the Spring Boot application:
-   
+
    Linux/Mac:
    ```
    ./mvnw spring-boot:run
@@ -50,8 +50,14 @@ You will find the complete documentation of the API and will be able to test the
 
 The unit and integration tests were written following the TDD method. You can run the tests with the following command:
 
+Linux/Mac:
 ```
-mvn test
+./mvnw test
+```
+
+Windows:
+```
+./mvnw.cmd test
 ```
 
 ## Notes
