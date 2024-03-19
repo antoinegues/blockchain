@@ -13,13 +13,28 @@ This project is a simple and naive implementation of a blockchain using Spring B
    cd blockchain
    ```
 3. Compile the project with Maven:
+   
+   Linux/Mac:
    ```
-   mvn clean install
+   ./mvnw clean install
    ```
+
+   Windows:
+   ```
+   ./mvnw.cmd clean install
+   ```
+   
 4. Run the Spring Boot application:
+   
+   Linux/Mac:
    ```
-   mvn spring-boot:run
+   ./mvnw spring-boot:run
    ```
+   
+    Windows:
+    ```
+    ./mvnw.cmd spring-boot:run
+    ```
 
 ## Accessing Swagger
 
